@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imagens/logo1.png">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="imagens/logo1.png" alt="Logotipo da academia Interação">
+            </a>
+            
+        </div>
+
+        <nav>
+            <ul>
+                <a href="index.html"><li class="botao">HOME</li></a>
+                <a href="sobre.html"><li class="botao">SOBRE</li></a>
+                <a href="galeria.html"><li class="botao">GALERIA</li></a>
+                <a href="contato.html"><li class="botao">CONTATO</li></a>  
+            </ul>
+        </nav>
+    </header>
+
+    <main><!--Conteudo principal da página-->
+       
+        <div id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4495.608650821004!2d-46.5518423!3d-23.6911834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce423586355a51%3A0xf1d7e7d2655053b1!2sAv.%20Senador%20Vergueiro%2C%20400%20-%20Rudge%20Ramos%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009750-000!5e1!3m2!1spt-BR!2sbr!4v1790166841607!5m2!1spt-BR!2sbr" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <article class="info">
+            <h2>FALE CONOSCO</h2>
+
+            <br>
+
+            <p>
+                Neste canal você pode enviar suas sugestões, criticas ou duvidas</p>
+                <p>Avenida Senador Vergueiro, 400. Centro - São Bernardo do campo</p>
+                <p>Telefone: (11) 4336-7900 ou (11) 4336-7890</p>
+                <p>contato@academiainteracao.com.br</p>
+                <br>
+
+                <input type="checkbox"><span> Desejo receber novidades sobre os Planos e Eventos exclusivosda Academia Interação.</span>
+        </article>
+        
+
+        <div id="formulario">
+
+            <form id="form" method="post" action="envia.php">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Escreva seu nome">
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" id="email" placeholder="Escreva seu email">
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea type="text" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+
+                <input type="submit" value="enviar" id="ENVIAR" class="BOTAO">
+                <input type="reset" value="limpar" id="LIMPAR" class="BOTAO">
+                
+
+            </form>
+
+        </div>
+    </main>
+     
+    <br>
+    <br>
+
+    <footer>
+       <h3>Siga-nos nas Redes Sociais</h3>
+       <br>
+
+       <figure class="socialmidia">
+            <a href="https://facebook.com" target="_blank"> <img src="imagens/social-facebook.png" alt="Link para o facebook"></a>
+
+            <a href="https://x.com" target="_blank"> <img src="imagens/social-twitter.png" alt="Link para o twitter"></a>
+
+            <a href="https://youtube.com" target="_blank"> <img src="imagens/social-youtube.png" alt="Link para o youtube"></a>
+                       
+       </figure>
+
+       <p>Copyright © Academia Interação 2026. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
